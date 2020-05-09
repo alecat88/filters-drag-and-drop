@@ -1,6 +1,9 @@
 # filters-drag-and-drop by Alessandro Catania
 Drag and drop filters examples
 
+### Pre-ready for test build in "dist" folder
+Just click on the index.html file
+
 ## Project setup
 ```
 yarn install
@@ -20,6 +23,3 @@ yarn build
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

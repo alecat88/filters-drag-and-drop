@@ -37,9 +37,9 @@
       </v-btn>
     </v-app-bar> -->
 
-    <v-content>
-      <Autocomplete :key="0"/>
-      <Autocomplete :key="1"/>
+    <v-content class="content">
+      <Autocomplete :key="0" title="out" />
+      <Autocomplete :key="1" title="in" />
     </v-content>
   </v-app>
 </template>
@@ -59,3 +59,8 @@ export default {
   })
 };
 </script>
+<style>
+.v-content__wrap {
+  display: flex;
+}
+</style>
